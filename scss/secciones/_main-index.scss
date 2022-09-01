@@ -1,0 +1,147 @@
+.main{
+   h3{
+    text-decoration: overline underline;
+    padding: 5px;
+    color: black;
+    display: inline;
+   }
+   p{
+    padding: 5px;
+   }
+}
+
+.container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primera_seccion {
+    background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    a{
+        text-decoration: none;
+    }
+}
+
+.segunda_seccion {
+    color: #FDF0D5;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    color: black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    p{
+        display: inline-block;
+        padding: 5px;
+    }
+}
+
+.titulo_destacado {
+    text-align: center;
+    transform: skew(-20deg);
+    margin: 15px;
+    h3{
+        text-decoration: none;
+        color: white;
+        background-color: black;
+    }
+}
+
+.tercera_seccion {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    div{
+        width: 20%;
+        display: inline-block;
+        font-size: 11px;
+        background-color: black;
+        color: white;
+        height: 350px;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+        img{
+            width: 200px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .segunda_seccion {
+        width: 100vw;
+        img{
+            width: 30px;
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+
+    .titulo_destacado {
+        font-size: 12px;
+    }
+
+    .tercera_seccion {
+        width: 100%;
+        text-align: center;
+        div {
+            height: 300px;
+            img{
+                width: 120px;
+            }
+        }
+
+    } 
+}
+
+@media (max-width: 426px) {
+    .primera_seccion {
+        background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
+        height: 300px;
+        margin: 5px;
+        padding: 5px;
+        width: 420px;
+    }
+
+    .segunda_seccion {
+        color: black;
+        text-align: center;
+        p{
+            display: inline-block;
+        font-size: 15px;
+        }
+    }
+
+    .titulo_destacado {
+        margin: 5px;
+        h3{
+            font-size: 8px;
+        }
+    }
+
+    .tercera_seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 350px;
+            text-align: center;
+            img{
+                width: 200px;
+            }
+        }
+    }
+}
