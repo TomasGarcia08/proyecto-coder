@@ -282,5 +282,119 @@ font-family: 'Montserrat', sans-serif; */
     font-family: 'Mouse Memoirs', sans-serif;
     width: 250px;
     margin-left: 50px;
-    background-color: #fec341;
-    transform: skew(-15deg) translate(30px); }
+    background-color: #fec341; }
+
+@media (max-width: 768px) {
+  .seccion_productosp {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .seccion_productosp div {
+      display: flex;
+      flex-direction: column;
+      width: 170px;
+      height: 320px; }
+  .aside {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    text-align: center; }
+    .aside ul {
+      list-style-type: none; }
+  .seccion_productosg {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .seccion_productosg img {
+      margin-top: 10px; }
+  .aside_cat {
+    width: 200px;
+    height: 320px;
+    display: inline-block;
+    text-align: center; }
+    .aside_cat ul {
+      list-style-type: none; }
+  .imagen_producto h4 {
+    width: 300px;
+    height: 50px;
+    padding-top: 5px;
+    font-size: 20px; } }
+
+@media (max-width: 426px) {
+  .imagen_producto h4 {
+    width: 300px;
+    height: 50px;
+    padding-top: 5px;
+    font-size: 20px; } }
+
+.imagen_accesorios {
+  background-image: url(https://media.istockphoto.com/photos/pet-care-concept-various-pet-accessories-and-tools-on-pink-background-picture-id1401042138?k=20&m=1401042138&s=612x612&w=0&h=7t-LlfmRssw8ewAnkf-OTUoKHVAiMGPxoWIWPtVYoWg=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center; }
+  .imagen_accesorios p {
+    padding-top: 350px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    color: white; }
+
+.seccion_accesorios div {
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 20px; }
+
+.seccion_accesorios p {
+  font-size: 12px; }
+
+.seccion_accesorios img {
+  margin-top: 20px;
+  width: 100%; }
+
+.aside_acc {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  text-align: center; }
+
+.aside_acc h3 {
+  text-decoration: none; }
+
+.aside_acc ul {
+  text-align: center;
+  list-style-type: none; }
+
+.aside_acc li {
+  padding: 10px; }
+
+.aside_acc a {
+  text-decoration: none;
+  color: black; }
+
+.aside_acc a:hover {
+  background-color: #f1627a; }
+
+@media (max-width: 768px) {
+  .imagen_accesorios {
+    height: 300px; }
+  .imagen_accesorios p {
+    padding-top: 200px; }
+  .seccion_accesorios {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .seccion_accesorios div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .contenedor_servicios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; } }
