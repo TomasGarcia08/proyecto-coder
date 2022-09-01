@@ -205,3 +205,82 @@ font-family: 'Montserrat', sans-serif; */
   .footer {
     font-size: 10px;
     width: 100vw; } }
+
+/* productos */
+.seccion_productosp div {
+  display: inline-block;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 20px; }
+  .seccion_productosp div p {
+    font-size: 12px; }
+  .seccion_productosp div img {
+    width: 150px; }
+
+.aside {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  text-align: center; }
+  .aside h3 {
+    text-decoration: none; }
+  .aside ul {
+    text-align: center;
+    list-style-type: none; }
+    .aside ul li {
+      padding: 10px; }
+      .aside ul li a {
+        text-decoration: none;
+        color: black; }
+        .aside ul li a:hover {
+          background-color: #0084ffb8; }
+
+.seccion_productosg div {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 20px; }
+  .seccion_productosg div p {
+    font-size: 12px; }
+  .seccion_productosg div img {
+    width: 150px;
+    margin-top: 20px; }
+
+.aside_cat {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  text-align: center; }
+  .aside_cat h3 {
+    text-decoration: none; }
+  .aside_cat ul {
+    text-align: center;
+    list-style-type: none; }
+    .aside_cat ul li {
+      padding: 10px; }
+      .aside_cat ul li a {
+        text-decoration: none;
+        color: black; }
+        .aside_cat ul li a:hover {
+          background-color: #0084ffb8; }
+
+.imagen_producto {
+  background-image: url(https://www.estudio34.com/wp-content/uploads/2020/05/HAPPETS-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  font-size: 40px;
+  text-align: center; }
+  .imagen_producto h4 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    width: 250px;
+    margin-left: 50px;
+    background-color: #fec341;
+    transform: skew(-15deg) translate(30px); }
