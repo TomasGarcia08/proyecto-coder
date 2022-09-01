@@ -1,0 +1,324 @@
+.contenedor_servicios {
+    display: flex;
+    justify-content: center;
+}
+
+.peluqueria_seccion {
+    height: 820px;
+    width: 710px;
+    background-color: white;
+    text-align: center;
+    color: white;
+    margin: 50px;
+    padding: 25px;
+    border: black 5px solid;
+    border-radius: 10%;
+}
+
+.peluqueria_seccion p {
+    background-color: black;
+    padding: 10px;
+}
+
+.peluqueria_seccion h3 {
+    background-color: black;
+    margin: 10px;
+}
+
+.peluqueria_seccion img {
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.turnos_peluqueria {
+    height: 450px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    margin-top: 250px;
+    border: white 5px solid;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.turnos_peluqueria p {
+    padding: 5px;
+}
+.turnos_peluqueria ul {
+    list-style-type: none;
+    padding: 10px;
+}
+.turnos_peluqueria a {
+    color: white;
+}
+
+.veterinaria_seccion {
+    height: 830px;
+    width: 710px;
+    background-color: black;
+    text-align: center;
+    color: black;
+    margin: 50px;
+    padding: 25px;
+    border: white 5px solid;
+    border-radius: 10%;
+}
+
+.veterinaria_seccion p {
+    background-color: white;
+    padding: 10px;
+}
+
+.veterinaria_seccion h3 {
+    background-color: white;
+    margin: 10px;
+}
+
+.veterinaria_seccion img {
+    background-color: white;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.turnos_veterinaria {
+    height: 600px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin-top: 200px;
+    border: black 5px solid;
+    border-radius: 10%;
+}
+
+.turnos_veterinaria p {
+    padding: 10px;
+}
+
+.turnos_veterinaria ul {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.turnos_veterinaria a {
+    color: black;
+}
+
+
+@media (max-width:1024px) {
+    .contenedor_servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .peluqueria_seccion {
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    .turnos_peluqueria {
+        margin-top: 30px;
+        margin-right: 10px;
+    }
+    
+    
+    .veterinaria_seccion {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    
+    .turnos_veterinaria {
+        margin-top: 30px;
+        margin-right: 10px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .contenedor_servicios {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peluqueria_seccion {
+        height: 550px;
+        width: 510px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .peluqueria_seccion p {
+        font-size: 12px;
+    }
+
+    .peluqueria_seccion h3 {
+        font-size: 13px;
+    }
+
+    .peluqueria_seccion img {
+        margin: 5px;
+        width: 350px;
+    }
+
+    .img_logo img {
+        width: 50px;
+    }
+
+    .turnos_peluqueria {
+        height: 500px;
+        width: 350px;
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+
+    .turnos_peluqueria p {
+        padding: 5px;
+    }
+
+    .turnos_peluqueria li {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .veterinaria_seccion {
+        height: 550px;
+        width: 510px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .veterinaria_seccion p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .veterinaria_seccion h3 {
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .veterinaria_seccion img {
+        width: 350px;
+        margin: 5px;
+    }
+
+    .img_logo img {
+        width: 50px;
+    }
+
+    .turnos_veterinaria {
+        height: 600px;
+        width: 350px;
+        margin: 20px;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+    .turnos_veterinaria p {
+        padding: 5px;
+    }
+
+    .turnos_veterinaria li {
+        padding: 5px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 426px ){
+    .contenedor_servicios {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .peluqueria_seccion {
+        height: 500px;
+        width: 350px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .peluqueria_seccion p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .peluqueria_seccion h3 {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .peluqueria_seccion img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .img_logo img {
+        width: 40px;
+    }
+
+    .turnos_peluqueria {
+        height: 480px;
+        width: 350px;
+        margin-top: 20px;
+        margin-right: 1px;
+        border: white 5px solid;
+        border-radius: 10%;
+    }
+
+    .turnos_peluqueria p {
+        padding: 5px;
+    }
+
+
+    .turnos_peluqueria li {
+        padding: 5px;
+    }
+
+    .veterinaria_seccion {
+        height: 500px;
+        width: 350px;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    .veterinaria_seccion p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .veterinaria_seccion h3 {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+
+    .veterinaria_seccion img {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .img_logo img {
+        width: 40px;
+    }
+
+    .turnos_veterinaria {
+        height: 580px;
+        width: 350px;
+        margin-top: 20px;
+        margin-right: 10px;
+        border: black 5px solid;
+    }
+
+    .turnos_veterinaria p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .turnos_veterinaria li {
+        padding: 5px;
+    }
+}

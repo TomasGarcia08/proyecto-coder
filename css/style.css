@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Mouse+Memoirs&display=swap");
+
 /* font-family: 'Edu SA Beginner', cursive;
 font-family: 'Hind', sans-serif;
 font-family: 'Montserrat', sans-serif; */
@@ -8,80 +9,101 @@ font-family: 'Montserrat', sans-serif; */
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
 
 .header {
-  text-align: center; }
+  text-align: center; 
+}
 
 .primer_parrafo {
   color: black;
-  background-color: white; }
+  background-color: white;
+ }
 
 .logo_inicio {
   width: 250px;
-  border-radius: 10%; }
+  border-radius: 10%; 
+}
 
 .nombreP {
   text-align: center;
-  color: black; }
+  color: black; 
+}
   .nombreP:hover {
-    background-color: #00ffff9f; }
+    background-color: #00ffff9f; 
+  }
 
 .navbar-nav {
-  list-style-type: none; }
+  list-style-type: none; 
+}
 
 .nav-item {
   margin: 10px;
   padding: 5px;
   width: 150px;
-  background-color: #000000; }
+  background-color: #000000; 
+}
 
 .nav-link {
   text-decoration: none;
   color: white; }
   .nav-link:hover {
-    background-color: cyan; }
+    background-color: cyan; 
+  }
 
 @media (max-width: 768px) {
   .header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 12px; }
+    font-size: 12px; 
+  }
   .navbar-nav {
     display: flex;
-    justify-content: center; }
+    justify-content: center; 
+ }
   .nav-item {
     margin: 10px;
     padding: 5px;
-    width: 100px; }
+    width: 100px; 
+  }
   .logo_inicio {
-    width: 180px; } }
+    width: 180px; 
+  } 
+  }
 
 @media (max-width: 426px) {
   .navbar-nav {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center; 
+  }
   .nav-item {
-    width: 100px; }
+    width: 100px; 
+  }
   .logo_inicio {
-    width: 120px; } }
+    width: 120px; 
+  } 
+}
 
 .main h3 {
   text-decoration: overline underline;
   padding: 5px;
   color: black;
-  display: inline; }
+  display: inline; 
+}
 
 .main p {
-  padding: 5px; }
+  padding: 5px; 
+}
 
 .container-fluid {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+ }
 
 .primera_seccion {
   background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
@@ -90,9 +112,11 @@ font-family: 'Montserrat', sans-serif; */
   padding: 5px;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center; }
+  text-align: center; 
+}
   .primera_seccion a {
-    text-decoration: none; }
+    text-decoration: none;
+   }
 
 .segunda_seccion {
   color: #FDF0D5;
@@ -101,24 +125,29 @@ font-family: 'Montserrat', sans-serif; */
   margin: 0 auto;
   color: black;
   border-left: 1px solid black;
-  border-right: 1px solid black; }
+  border-right: 1px solid black; 
+}
   .segunda_seccion p {
     display: inline-block;
-    padding: 5px; }
+    padding: 5px; 
+  }
 
 .titulo_destacado {
   text-align: center;
   transform: skew(-20deg);
-  margin: 15px; }
+  margin: 15px; 
+}
   .titulo_destacado h3 {
     text-decoration: none;
     color: white;
-    background-color: black; }
+    background-color: black; 
+  }
 
 .tercera_seccion {
   width: 100%;
   text-align: center;
-  margin: 5px; }
+  margin: 5px; 
+}
   .tercera_seccion div {
     width: 20%;
     display: inline-block;
@@ -128,26 +157,36 @@ font-family: 'Montserrat', sans-serif; */
     height: 350px;
     text-align: center;
     padding: 5px;
-    margin: 5px; }
+    margin: 5px; 
+  }
     .tercera_seccion div img {
-      width: 200px; }
+      width: 200px; 
+    }
 
 @media (max-width: 768px) {
   .segunda_seccion {
-    width: 100vw; }
+    width: 100vw; 
+  }
     .segunda_seccion img {
-      width: 30px; }
+      width: 30px; 
+    }
       .segunda_seccion img p {
-        font-size: 10px; }
+        font-size: 10px; 
+      }
   .titulo_destacado {
-    font-size: 12px; }
+    font-size: 12px; 
+  }
   .tercera_seccion {
     width: 100%;
-    text-align: center; }
+    text-align: center; 
+  }
     .tercera_seccion div {
-      height: 300px; }
+      height: 300px; 
+    }
       .tercera_seccion div img {
-        width: 120px; } }
+        width: 120px; 
+      } 
+}
 
 @media (max-width: 426px) {
   .primera_seccion {
@@ -398,3 +437,231 @@ font-family: 'Montserrat', sans-serif; */
     justify-content: center;
     flex-direction: column;
     align-items: center; } }
+
+.contenedor_servicios {
+  display: flex;
+  justify-content: center; }
+
+.peluqueria_seccion {
+  height: 820px;
+  width: 710px;
+  background-color: white;
+  text-align: center;
+  color: white;
+  margin: 50px;
+  padding: 25px;
+  border: black 5px solid;
+  border-radius: 10%; }
+
+.peluqueria_seccion p {
+  background-color: black;
+  padding: 10px; }
+
+.peluqueria_seccion h3 {
+  background-color: black;
+  margin: 10px; }
+
+.peluqueria_seccion img {
+  border-radius: 10%;
+  margin: 10px; }
+
+.turnos_peluqueria {
+  height: 450px;
+  width: 350px;
+  background-color: black;
+  color: white;
+  margin-top: 250px;
+  border: white 5px solid;
+  border-radius: 10%;
+  text-align: center; }
+
+.turnos_peluqueria p {
+  padding: 5px; }
+
+.turnos_peluqueria ul {
+  list-style-type: none;
+  padding: 10px; }
+
+.turnos_peluqueria a {
+  color: white; }
+
+.veterinaria_seccion {
+  height: 830px;
+  width: 710px;
+  background-color: black;
+  text-align: center;
+  color: black;
+  margin: 50px;
+  padding: 25px;
+  border: white 5px solid;
+  border-radius: 10%; }
+
+.veterinaria_seccion p {
+  background-color: white;
+  padding: 10px; }
+
+.veterinaria_seccion h3 {
+  background-color: white;
+  margin: 10px; }
+
+.veterinaria_seccion img {
+  background-color: white;
+  margin: 10px;
+  border-radius: 10%; }
+
+.turnos_veterinaria {
+  height: 600px;
+  width: 350px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin-top: 200px;
+  border: black 5px solid;
+  border-radius: 10%; }
+
+.turnos_veterinaria p {
+  padding: 10px; }
+
+.turnos_veterinaria ul {
+  padding: 10px;
+  list-style-type: none; }
+
+.turnos_veterinaria a {
+  color: black; }
+
+@media (max-width: 1024px) {
+  .contenedor_servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .peluqueria_seccion {
+    margin: 20px;
+    padding: 10px; }
+  .turnos_peluqueria {
+    margin-top: 30px;
+    margin-right: 10px; }
+  .veterinaria_seccion {
+    margin: 20px;
+    padding: 10px; }
+  .turnos_veterinaria {
+    margin-top: 30px;
+    margin-right: 10px; } }
+
+@media (max-width: 768px) {
+  .contenedor_servicios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .peluqueria_seccion {
+    height: 550px;
+    width: 510px;
+    margin: 20px;
+    padding: 10px; }
+  .peluqueria_seccion p {
+    font-size: 12px; }
+  .peluqueria_seccion h3 {
+    font-size: 13px; }
+  .peluqueria_seccion img {
+    margin: 5px;
+    width: 350px; }
+  .img_logo img {
+    width: 50px; }
+  .turnos_peluqueria {
+    height: 500px;
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 5px; }
+  .turnos_peluqueria p {
+    padding: 5px; }
+  .turnos_peluqueria li {
+    padding: 5px;
+    font-size: 12px; }
+  .veterinaria_seccion {
+    height: 550px;
+    width: 510px;
+    margin: 20px;
+    padding: 10px; }
+  .veterinaria_seccion p {
+    padding: 5px;
+    font-size: 12px; }
+  .veterinaria_seccion h3 {
+    margin: 5px;
+    font-size: 13px; }
+  .veterinaria_seccion img {
+    width: 350px;
+    margin: 5px; }
+  .img_logo img {
+    width: 50px; }
+  .turnos_veterinaria {
+    height: 600px;
+    width: 350px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 10px; }
+  .turnos_veterinaria p {
+    padding: 5px; }
+  .turnos_veterinaria li {
+    padding: 5px;
+    font-size: 12px; } }
+
+@media (max-width: 426px) {
+  .contenedor_servicios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+  .peluqueria_seccion {
+    height: 500px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 5px; }
+  .peluqueria_seccion p {
+    padding: 5px;
+    font-size: 12px; }
+  .peluqueria_seccion h3 {
+    margin: 0 auto;
+    font-size: 12px; }
+  .peluqueria_seccion img {
+    width: 300px;
+    margin: 0 auto; }
+  .img_logo img {
+    width: 40px; }
+  .turnos_peluqueria {
+    height: 480px;
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 1px;
+    border: white 5px solid;
+    border-radius: 10%; }
+  .turnos_peluqueria p {
+    padding: 5px; }
+  .turnos_peluqueria li {
+    padding: 5px; }
+  .veterinaria_seccion {
+    height: 500px;
+    width: 350px;
+    margin: 10px auto;
+    padding: 5px; }
+  .veterinaria_seccion p {
+    padding: 5px;
+    font-size: 12px; }
+  .veterinaria_seccion h3 {
+    font-size: 12px;
+    margin: 0 auto; }
+  .veterinaria_seccion img {
+    margin: 0 auto;
+    width: 300px; }
+  .img_logo img {
+    width: 40px; }
+  .turnos_veterinaria {
+    height: 580px;
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: black 5px solid; }
+  .turnos_veterinaria p {
+    padding: 5px;
+    font-size: 12px; }
+  .turnos_veterinaria li {
+    padding: 5px; } }
