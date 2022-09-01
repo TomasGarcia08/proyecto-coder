@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Mouse+Memoirs&display=swap");
-
 /* font-family: 'Edu SA Beginner', cursive;
 font-family: 'Hind', sans-serif;
 font-family: 'Montserrat', sans-serif; */
@@ -9,101 +8,80 @@ font-family: 'Montserrat', sans-serif; */
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  box-sizing: border-box; 
-}
+  box-sizing: border-box; }
 
 .header {
-  text-align: center; 
-}
+  text-align: center; }
 
 .primer_parrafo {
   color: black;
-  background-color: white;
- }
+  background-color: white; }
 
 .logo_inicio {
   width: 250px;
-  border-radius: 10%; 
-}
+  border-radius: 10%; }
 
 .nombreP {
   text-align: center;
-  color: black; 
-}
+  color: black; }
   .nombreP:hover {
-    background-color: #00ffff9f; 
-  }
+    background-color: #00ffff9f; }
 
 .navbar-nav {
-  list-style-type: none; 
-}
+  list-style-type: none; }
 
 .nav-item {
   margin: 10px;
   padding: 5px;
   width: 150px;
-  background-color: #000000; 
-}
+  background-color: #000000; }
 
 .nav-link {
   text-decoration: none;
   color: white; }
   .nav-link:hover {
-    background-color: cyan; 
-  }
+    background-color: cyan; }
 
 @media (max-width: 768px) {
   .header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 12px; 
-  }
+    font-size: 12px; }
   .navbar-nav {
     display: flex;
-    justify-content: center; 
- }
+    justify-content: center; }
   .nav-item {
     margin: 10px;
     padding: 5px;
-    width: 100px; 
-  }
+    width: 100px; }
   .logo_inicio {
-    width: 180px; 
-  } 
-  }
+    width: 180px; } }
 
 @media (max-width: 426px) {
   .navbar-nav {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-  }
+    align-items: center; }
   .nav-item {
-    width: 100px; 
-  }
+    width: 100px; }
   .logo_inicio {
-    width: 120px; 
-  } 
-}
+    width: 120px; } }
 
 .main h3 {
   text-decoration: overline underline;
   padding: 5px;
   color: black;
-  display: inline; 
-}
+  display: inline; }
 
 .main p {
-  padding: 5px; 
-}
+  padding: 5px; }
 
 .container-fluid {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
- }
+  margin-right: auto; }
 
 .primera_seccion {
   background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
@@ -112,11 +90,9 @@ font-family: 'Montserrat', sans-serif; */
   padding: 5px;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center; 
-}
+  text-align: center; }
   .primera_seccion a {
-    text-decoration: none;
-   }
+    text-decoration: none; }
 
 .segunda_seccion {
   color: #FDF0D5;
@@ -125,29 +101,24 @@ font-family: 'Montserrat', sans-serif; */
   margin: 0 auto;
   color: black;
   border-left: 1px solid black;
-  border-right: 1px solid black; 
-}
+  border-right: 1px solid black; }
   .segunda_seccion p {
     display: inline-block;
-    padding: 5px; 
-  }
+    padding: 5px; }
 
 .titulo_destacado {
   text-align: center;
   transform: skew(-20deg);
-  margin: 15px; 
-}
+  margin: 15px; }
   .titulo_destacado h3 {
     text-decoration: none;
     color: white;
-    background-color: black; 
-  }
+    background-color: black; }
 
 .tercera_seccion {
   width: 100%;
   text-align: center;
-  margin: 5px; 
-}
+  margin: 5px; }
   .tercera_seccion div {
     width: 20%;
     display: inline-block;
@@ -157,36 +128,26 @@ font-family: 'Montserrat', sans-serif; */
     height: 350px;
     text-align: center;
     padding: 5px;
-    margin: 5px; 
-  }
+    margin: 5px; }
     .tercera_seccion div img {
-      width: 200px; 
-    }
+      width: 200px; }
 
 @media (max-width: 768px) {
   .segunda_seccion {
-    width: 100vw; 
-  }
+    width: 100vw; }
     .segunda_seccion img {
-      width: 30px; 
-    }
+      width: 30px; }
       .segunda_seccion img p {
-        font-size: 10px; 
-      }
+        font-size: 10px; }
   .titulo_destacado {
-    font-size: 12px; 
-  }
+    font-size: 12px; }
   .tercera_seccion {
     width: 100%;
-    text-align: center; 
-  }
+    text-align: center; }
     .tercera_seccion div {
-      height: 300px; 
-    }
+      height: 300px; }
       .tercera_seccion div img {
-        width: 120px; 
-      } 
-}
+        width: 120px; } }
 
 @media (max-width: 426px) {
   .primera_seccion {
@@ -665,3 +626,133 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 12px; }
   .turnos_veterinaria li {
     padding: 5px; } }
+
+.imagen_contacto {
+  background-color: rgba(255, 166, 0, 0.3); }
+
+.imagen_contacto img {
+  width: 100%; }
+
+.seccion_contacto {
+  text-align: center;
+  color: white; }
+
+.seccion_contacto h3 {
+  font-size: 15px; }
+
+.seccion_contacto p {
+  font-size: 15px; }
+
+.mapa_iframe {
+  width: 800px;
+  height: 450px; }
+
+.titulo_grid {
+  margin: 5px;
+  padding: 5px; }
+
+.grid_galeria {
+  max-width: 950px;
+  align-content: center;
+  margin: 0 auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(6, 16, 66%);
+  grid-template-rows: repeat(4, 20%);
+  grid-template-areas: "img1 img1 img2 img2 img3 img3" "img1 img1 img2 img2 img3 img3" "img4 img4 img5 img5 img6 img6" "img4 img4 img5 img5 img6 img6"; }
+
+.img1 {
+  grid-area: img1; }
+
+.img1 img {
+  width: 300px; }
+
+.img2 {
+  grid-area: img2; }
+
+.img2 img {
+  width: 300px; }
+
+.img3 {
+  grid-area: img3; }
+
+.img3 img {
+  width: 300px; }
+
+.img4 {
+  grid-area: img4; }
+
+.img4 img {
+  width: 300px; }
+
+.img5 {
+  grid-area: img5; }
+
+.img5 img {
+  width: 300px; }
+
+.img6 {
+  grid-area: img6; }
+
+.img6 img {
+  width: 300px; }
+
+@media (max-width: 768px) {
+  .mapa_iframe {
+    width: 500px;
+    height: 450px; }
+  .seccion_contacto h3 {
+    font-size: 20px; }
+  .seccion_contacto p {
+    font-size: 20px; }
+  .grid_galeria {
+    max-width: 600px;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 10%);
+    grid-template-rows: repeat(3, 27%);
+    grid-template-areas: "img1 img1 img1 img2 img2 img2" "img3 img3 img3 img4 img4 img4" "img5 img5 img5 img6 img6 img6"; }
+  .img1 img {
+    width: 200px; }
+  .img2 img {
+    width: 200px; }
+  .img3 img {
+    width: 200px; }
+  .img4 img {
+    width: 200px; }
+  .img5 img {
+    width: 200px; }
+  .img6 img {
+    width: 200px; } }
+
+@media (max-width: 426px) {
+  .mapa_iframe {
+    width: 100vw;
+    height: 300px; }
+  .seccion_contacto h3 {
+    font-size: 20px; }
+  .seccion_contacto p {
+    font-size: 20px; }
+  .grid_galeria {
+    max-width: 400px;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(6, 15%);
+    grid-template-areas: "img1 img1" "img2 img2" "img3 img3" "img4 img4" "img5 img5" "img6 img6"; }
+  .img1 img {
+    width: 250px; }
+  .img2 img {
+    width: 250px; }
+  .img3 img {
+    width: 250px; }
+  .img4 img {
+    width: 250px; }
+  .img5 img {
+    width: 250px; }
+  .img6 img {
+    width: 250px; } }

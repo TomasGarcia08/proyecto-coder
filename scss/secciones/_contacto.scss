@@ -1,0 +1,203 @@
+.imagen_contacto {
+    background-color: rgba(255, 166, 0, 0.3);
+}
+
+.imagen_contacto img {
+    width: 100%;
+}
+
+.seccion_contacto {
+    text-align: center;
+    color: white;
+}
+
+.seccion_contacto h3 {
+    font-size: 15px;
+}
+
+.seccion_contacto p {
+    font-size: 15px;
+}
+
+.mapa_iframe {
+    width: 800px;
+    height: 450px;
+}
+
+.titulo_grid {
+    margin: 5px;
+    padding: 5px;
+}
+
+.grid_galeria {
+    max-width: 950px;
+    align-content: center;
+    margin: 0 auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 16, 66%);
+    grid-template-rows: repeat(4, 20%);
+    grid-template-areas:
+        "img1 img1 img2 img2 img3 img3"
+        "img1 img1 img2 img2 img3 img3"
+        "img4 img4 img5 img5 img6 img6"
+        "img4 img4 img5 img5 img6 img6";
+}
+
+.img1 {
+    grid-area: img1;
+}
+
+.img1 img {
+    width: 300px;
+
+}
+
+.img2 {
+    grid-area: img2;
+}
+
+.img2 img {
+    width: 300px;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.img3 img {
+    width: 300px;
+}
+
+.img4 {
+    grid-area: img4;
+}
+
+.img4 img {
+    width: 300px;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.img5 img {
+    width: 300px;
+}
+
+.img6 {
+    grid-area: img6;
+}
+
+.img6 img {
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .mapa_iframe {
+        width: 500px;
+        height: 450px;
+    }
+
+    .seccion_contacto h3 {
+        font-size: 20px;
+    }
+
+    .seccion_contacto p {
+        font-size: 20px;
+    }
+    .grid_galeria {
+        max-width: 600px;
+        align-content: center;
+        margin: 0 auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(6, 10%);
+        grid-template-rows: repeat(3, 27%);
+        grid-template-areas:
+            "img1 img1 img1 img2 img2 img2"
+            "img3 img3 img3 img4 img4 img4"
+            "img5 img5 img5 img6 img6 img6";
+    }
+
+    .img1 img {
+        width: 200px;
+    }
+
+    .img2 img {
+        width: 200px;
+    }
+
+    .img3 img {
+        width: 200px;
+    }
+
+    .img4 img {
+        width: 200px;
+    }
+
+    .img5 img {
+        width: 200px;
+    }
+
+    .img6 img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 426px) {
+    .mapa_iframe {
+        width: 100vw;
+        height: 300px;
+    }
+
+    .seccion_contacto h3 {
+        font-size: 20px;
+    }
+
+    .seccion_contacto p {
+        font-size: 20px;
+    }        
+
+    .grid_galeria {
+        max-width: 400px;
+        align-content: center;
+        margin: 0 auto;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(6, 15%);
+        grid-template-areas:
+            "img1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 img4"
+            "img5 img5"
+            "img6 img6";
+    }
+
+    .img1 img {
+        width: 250px;
+    }
+
+    .img2 img {
+        width: 250px;
+    }
+
+    .img3 img {
+        width: 250px;
+    }
+
+    .img4 img {
+        width: 250px;
+    }
+
+    .img5 img {
+        width: 250px;
+    }
+
+    .img6 img {
+        width: 250px;
+    }
+
+}
