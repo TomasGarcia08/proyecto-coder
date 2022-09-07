@@ -1,10 +1,10 @@
 .footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: $texto;
     font-size: 10px;
     background-color: white;
-    align-items: center;
+    align-items: $texto;
     ul{
         list-style-type: none;
         li{
@@ -21,7 +21,7 @@
 }
 
 .copy {
-    text-align: center;
+    text-align: $texto;
 }
 @media (max-width: 768px) {
     .footer {

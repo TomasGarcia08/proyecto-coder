@@ -24,7 +24,7 @@
     padding: 5px;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
+    text-align: $texto;
     a{
         text-decoration: none;
     }
@@ -32,7 +32,7 @@
 
 .segunda_seccion {
     color: #FDF0D5;
-    text-align: center;
+    text-align: $texto;
     width: 900px;
     margin: 0 auto;
     color: black;
@@ -45,7 +45,7 @@
 }
 
 .titulo_destacado {
-    text-align: center;
+    text-align: $texto;
     transform: skew(-20deg);
     margin: 15px;
     h3{
@@ -57,7 +57,7 @@
 
 .tercera_seccion {
     width: 100%;
-    text-align: center;
+    text-align: $texto;
     margin: 5px;
     div{
         width: 20%;
@@ -66,7 +66,7 @@
         background-color: black;
         color: white;
         height: 350px;
-        text-align: center;
+        text-align: $texto;
         padding: 5px;
         margin: 5px;
         img{
@@ -92,7 +92,7 @@
 
     .tercera_seccion {
         width: 100%;
-        text-align: center;
+        text-align: $texto;
         div {
             height: 300px;
             img{
@@ -114,7 +114,7 @@
 
     .segunda_seccion {
         color: black;
-        text-align: center;
+        text-align: $texto;
         p{
             display: inline-block;
         font-size: 15px;
@@ -131,14 +131,14 @@
     .tercera_seccion {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: $texto;
         div{
             width: 50%;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: $texto;
             height: 350px;
-            text-align: center;
+            text-align: $texto;
             img{
                 width: 200px;
             }

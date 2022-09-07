@@ -1,10 +1,10 @@
 .header {
-    text-align: center;
+    text-align: $texto;
 }
 
 .primer_parrafo {
     color: black;
-    background-color: white;
+    background-color: $hovernav;
 }
 
 .logo_inicio {
@@ -13,10 +13,10 @@
 }
 
 .nombreP {
-    text-align: center;
+    text-align: $texto;
     color: black;
     &:hover{
-        background-color: #00ffff9f;
+        background-color: $hovernav;
     }
  }
 
@@ -27,13 +27,13 @@
     margin: 10px;
     padding: 5px;
     width: 150px;
-    background-color: #000000  
+    background-color: black;
 }
 .nav-link {
         text-decoration: none;
         color: white;
         &:hover{
-            background-color: cyan;
+            background-color: $hovernav;
         }
 }
 
@@ -41,13 +41,13 @@
     .header {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: $texto;
         font-size: 12px;
     }
 
     .navbar-nav {
         display: flex;
-        justify-content: center;
+        justify-content: $texto;
     }
 
     .nav-item {
@@ -66,7 +66,7 @@
     .navbar-nav {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: $texto;
     }
 
     .nav-item {

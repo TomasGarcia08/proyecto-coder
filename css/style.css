@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Mouse+Memoirs&display=swap");
+.consejos_mascotas {
+  background-color: #f1627a;
+  color: white;
+  text-align: center; }
+
 /* font-family: 'Edu SA Beginner', cursive;
 font-family: 'Hind', sans-serif;
 font-family: 'Montserrat', sans-serif; */
@@ -15,7 +20,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .primer_parrafo {
   color: black;
-  background-color: white; }
+  background-color: #0dd1f4; }
 
 .logo_inicio {
   width: 250px;
@@ -25,7 +30,7 @@ font-family: 'Montserrat', sans-serif; */
   text-align: center;
   color: black; }
   .nombreP:hover {
-    background-color: #00ffff9f; }
+    background-color: #0dd1f4; }
 
 .navbar-nav {
   list-style-type: none; }
@@ -34,13 +39,13 @@ font-family: 'Montserrat', sans-serif; */
   margin: 10px;
   padding: 5px;
   width: 150px;
-  background-color: #000000; }
+  background-color: black; }
 
 .nav-link {
   text-decoration: none;
   color: white; }
   .nav-link:hover {
-    background-color: cyan; }
+    background-color: #0dd1f4; }
 
 @media (max-width: 768px) {
   .header {
@@ -380,6 +385,13 @@ font-family: 'Montserrat', sans-serif; */
 .aside_acc a:hover {
   background-color: #f1627a; }
 
+.consejos_mascotas {
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 10px; }
+  .consejos_mascotas b:hover {
+    color: black; }
+
 @media (max-width: 768px) {
   .imagen_accesorios {
     height: 300px; }
@@ -398,6 +410,13 @@ font-family: 'Montserrat', sans-serif; */
     justify-content: center;
     flex-direction: column;
     align-items: center; } }
+
+@media (max-width: 426px) {
+  .consejos_mascotas {
+    width: 400px;
+    margin: 10px; }
+    .consejos_mascotas b:hover {
+      color: black; } }
 
 .contenedor_servicios {
   display: flex;
