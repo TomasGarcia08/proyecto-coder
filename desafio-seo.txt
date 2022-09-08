@@ -1,0 +1,35 @@
+Titulos que agregue en los html:
+
+-Index:​🐶ESTACION MASCOTAS🐱|INICIO🦴
+
+-Producto:🦴PRODUCTOS🥩​
+
+-Accesorios: ⚽ACCESORIOS🧶
+
+-Servicios: 🩺SERVICIOS🚿
+
+-Contacto: 📧​CONTACTO📧
+
+Al desafio de seo agregue las siguientes descripciones y keywords:
+
+-Index:
+Keywords: Estacion Mascotas, Pet Shop, Mascotas, Balanceado, Envios, Córdoba.
+Description: En estacion mascotas vas a encontrar todo lo que necesitas para tu mascota y mas.
+
+-Productos:
+Keywords: Estacion mascota, productos, perros, gatos, alimentos, snacks.
+Description: Aca estan las mejores marcas y los mejores alimentos al mejor precio, eleginos.
+
+-Accesorios:
+Keywords: Estacion mascota, accesorios, paseo, cuchas, consejos, juguetes.
+Description: Tu mejor amigo necesita un buen paseo y la comodidad que se merece.
+
+-Servicios:
+Keywords: Estacion mascota, servicios, peluqueria, veterinaria, baño.
+Description: La mejor atencion para tu mascota.
+
+-Contacto:
+Keywords: Estacion mascota, contacto, ayuda, atencion, alimentos, mascotas.
+Description: Completa el formulario y recibi las mejores ofertas y beneficios, ademas de responder tus dudas.
+
+-Agrugue "migas de pan", para volver al inicio en los secciones.
