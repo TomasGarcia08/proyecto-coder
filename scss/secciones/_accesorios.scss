@@ -90,7 +90,10 @@
         align-items: center;
     }
     
-    
+    .consejos_mascotas{
+        width: 500px;
+    }
+
     .contenedor_servicios {
         display: flex;
         justify-content: center;
@@ -100,14 +103,15 @@
 }
 
 @media (max-width: 426px) {
-    .consejos_mascotas{
-        width: 400px;
-        margin: 10px;
-
-        b:hover {
-            color: $negro;
-        }
+    .imagen_accesorios {
+        p{
+            padding-top: 200px;
+            font-size: 21px;
     }
+
 }
 
-
+    .consejos_mascotas{
+        width: 300px;
+    }
+}

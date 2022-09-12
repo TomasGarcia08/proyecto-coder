@@ -91,7 +91,6 @@ font-family: 'Montserrat', sans-serif; */
 .primera_seccion {
   background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
   height: 300px;
-  margin: 10px;
   padding: 5px;
   background-repeat: no-repeat;
   background-position: center;
@@ -113,7 +112,6 @@ font-family: 'Montserrat', sans-serif; */
 
 .titulo_destacado {
   text-align: center;
-  transform: skew(-20deg);
   margin: 15px; }
   .titulo_destacado h3 {
     text-decoration: none;
@@ -158,9 +156,7 @@ font-family: 'Montserrat', sans-serif; */
   .primera_seccion {
     background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
     height: 300px;
-    margin: 5px;
-    padding: 5px;
-    width: 420px; }
+    padding: 5px; }
   .segunda_seccion {
     color: black;
     text-align: center; }
@@ -187,21 +183,22 @@ font-family: 'Montserrat', sans-serif; */
 
 .footer {
   display: flex;
+  flex-direction: column; }
+
+.nav_foooter ul {
+  list-style-type: none;
+  display: flex;
   flex-direction: column;
-  text-align: center;
-  font-size: 10px;
-  background-color: white;
-  align-items: center; }
-  .footer ul {
-    list-style-type: none; }
-    .footer ul li {
-      display: inline-block;
-      border: 5px black double;
-      padding: 5px;
-      margin: 5px; }
-      .footer ul li a {
-        text-decoration: none;
-        color: black; }
+  align-items: flex-start; }
+  .nav_foooter ul li {
+    margin: 5px;
+    padding: 5px;
+    border: 5px white double; }
+    .nav_foooter ul li a {
+      color: white;
+      text-decoration: none; }
+      .nav_foooter ul li a:hover {
+        color: #0dd1f4; }
 
 .copy {
   text-align: center; }
@@ -210,6 +207,10 @@ font-family: 'Montserrat', sans-serif; */
   .footer {
     font-size: 10px;
     width: 100vw; } }
+
+@media (max-width: 426px) {
+  .nav_foooter ul {
+    align-items: center; } }
 
 /* productos */
 .seccion_productosp div {
@@ -405,6 +406,8 @@ font-family: 'Montserrat', sans-serif; */
     display: flex;
     flex-direction: column;
     align-items: center; }
+  .consejos_mascotas {
+    width: 500px; }
   .contenedor_servicios {
     display: flex;
     justify-content: center;
@@ -412,11 +415,11 @@ font-family: 'Montserrat', sans-serif; */
     align-items: center; } }
 
 @media (max-width: 426px) {
+  .imagen_accesorios p {
+    padding-top: 200px;
+    font-size: 21px; }
   .consejos_mascotas {
-    width: 400px;
-    margin: 10px; }
-    .consejos_mascotas b:hover {
-      color: black; } }
+    width: 300px; } }
 
 .contenedor_servicios {
   display: flex;
