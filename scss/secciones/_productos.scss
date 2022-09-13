@@ -93,8 +93,7 @@
     font-size: 40px;
     text-align: center;
     h4{
-        font-family: 'Mouse Memoirs', sans-serif;
-        width: 250px;
+        width: 300px;
         margin-left: 50px;
         background-color: #fec341;
     }
@@ -147,7 +146,7 @@
 
     .imagen_producto h4 {
         width: 300px;
-        height: 50px;
+        height: 100px;
         padding-top: 5px;
         font-size: 20px;
     }
@@ -155,9 +154,10 @@
 
 @media (max-width: 426px) {
     
+
     .imagen_producto h4 {
         width: 300px;
-        height: 50px;
+        height: 100px;
         padding-top: 5px;
         font-size: 20px;
     }

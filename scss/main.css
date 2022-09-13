@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Hind:wght@300;600;700&family=Mouse+Memoirs&display=swap");
 .consejos_mascotas {
-  background-color: #f1627a;
+  background-color: rgb(241, 98, 122);
   color: white;
-  text-align: center; }
+  text-align: center;
+}
 
 /* font-family: 'Edu SA Beginner', cursive;
 font-family: 'Hind', sans-serif;
@@ -12,81 +13,100 @@ font-family: 'Montserrat', sans-serif; */
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  box-sizing: border-box; }
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
 
 .header {
-  text-align: center; }
+  text-align: center;
+}
 
 .primer_parrafo {
   color: black;
-  background-color: #0dd1f4; }
+  background-color: rgb(13, 209, 244);
+}
 
 .logo_inicio {
   width: 250px;
-  border-radius: 10%; }
+  border-radius: 10%;
+}
 
 .nombreP {
   text-align: center;
-  color: black; }
-  .nombreP:hover {
-    background-color: #0dd1f4; }
+  color: black;
+}
+.nombreP:hover {
+  background-color: rgb(13, 209, 244);
+}
 
 .navbar-nav {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .nav-item {
   margin: 10px;
   padding: 5px;
   width: 150px;
-  background-color: black; }
+  background-color: black;
+}
 
 .nav-link {
   text-decoration: none;
-  color: white; }
-  .nav-link:hover {
-    background-color: #0dd1f4; }
+  color: white;
+}
+.nav-link:hover {
+  background-color: rgb(13, 209, 244);
+}
 
 @media (max-width: 768px) {
   .header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .navbar-nav {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+  }
   .nav-item {
     margin: 10px;
     padding: 5px;
-    width: 100px; }
+    width: 100px;
+  }
   .logo_inicio {
-    width: 180px; } }
-
+    width: 180px;
+  }
+}
 @media (max-width: 426px) {
   .navbar-nav {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
   .nav-item {
-    width: 100px; }
+    width: 100px;
+  }
   .logo_inicio {
-    width: 120px; } }
-
+    width: 120px;
+  }
+}
 .main h3 {
   text-decoration: overline underline;
   padding: 5px;
   color: black;
-  display: inline; }
-
+  display: inline;
+}
 .main p {
-  padding: 5px; }
+  padding: 5px;
+}
 
 .container-fluid {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .primera_seccion {
   background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
@@ -94,9 +114,11 @@ font-family: 'Montserrat', sans-serif; */
   padding: 5px;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center; }
-  .primera_seccion a {
-    text-decoration: none; }
+  text-align: center;
+}
+.primera_seccion a {
+  text-decoration: none;
+}
 
 .segunda_seccion {
   color: #FDF0D5;
@@ -105,113 +127,143 @@ font-family: 'Montserrat', sans-serif; */
   margin: 0 auto;
   color: black;
   border-left: 1px solid black;
-  border-right: 1px solid black; }
-  .segunda_seccion p {
-    display: inline-block;
-    padding: 5px; }
+  border-right: 1px solid black;
+}
+.segunda_seccion p {
+  display: inline-block;
+  padding: 5px;
+}
 
 .titulo_destacado {
   text-align: center;
-  margin: 15px; }
-  .titulo_destacado h3 {
-    text-decoration: none;
-    color: white;
-    background-color: black; }
+  margin: 15px;
+}
+.titulo_destacado h3 {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
 
 .tercera_seccion {
   width: 100%;
   text-align: center;
-  margin: 5px; }
-  .tercera_seccion div {
-    width: 20%;
-    display: inline-block;
-    font-size: 11px;
-    background-color: black;
-    color: white;
-    height: 350px;
-    text-align: center;
-    padding: 5px;
-    margin: 5px; }
-    .tercera_seccion div img {
-      width: 200px; }
+  margin: 5px;
+}
+.tercera_seccion div {
+  width: 20%;
+  display: inline-block;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  height: 350px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+.tercera_seccion div img {
+  width: 200px;
+}
 
 @media (max-width: 768px) {
   .segunda_seccion {
-    width: 100vw; }
-    .segunda_seccion img {
-      width: 30px; }
-      .segunda_seccion img p {
-        font-size: 10px; }
+    width: 100vw;
+  }
+  .segunda_seccion img {
+    width: 30px;
+  }
+  .segunda_seccion img p {
+    font-size: 10px;
+  }
   .titulo_destacado {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .tercera_seccion {
     width: 100%;
-    text-align: center; }
-    .tercera_seccion div {
-      height: 300px; }
-      .tercera_seccion div img {
-        width: 120px; } }
-
+    text-align: center;
+  }
+  .tercera_seccion div {
+    height: 300px;
+  }
+  .tercera_seccion div img {
+    width: 120px;
+  }
+}
 @media (max-width: 426px) {
   .primera_seccion {
     background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
     height: 300px;
-    padding: 5px; }
+    padding: 5px;
+  }
   .segunda_seccion {
     color: black;
-    text-align: center; }
-    .segunda_seccion p {
-      display: inline-block;
-      font-size: 15px; }
+    text-align: center;
+  }
+  .segunda_seccion p {
+    display: inline-block;
+    font-size: 15px;
+  }
   .titulo_destacado {
-    margin: 5px; }
-    .titulo_destacado h3 {
-      font-size: 8px; }
+    margin: 5px;
+  }
+  .titulo_destacado h3 {
+    font-size: 8px;
+  }
   .tercera_seccion {
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    .tercera_seccion div {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 350px;
-      text-align: center; }
-      .tercera_seccion div img {
-        width: 200px; } }
-
+    align-items: center;
+  }
+  .tercera_seccion div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    text-align: center;
+  }
+  .tercera_seccion div img {
+    width: 200px;
+  }
+}
 .footer {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .nav_foooter ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; }
-  .nav_foooter ul li {
-    margin: 5px;
-    padding: 5px;
-    border: 5px white double; }
-    .nav_foooter ul li a {
-      color: white;
-      text-decoration: none; }
-      .nav_foooter ul li a:hover {
-        color: #0dd1f4; }
+  align-items: flex-start;
+}
+.nav_foooter ul li {
+  margin: 5px;
+  padding: 5px;
+  border: 5px white double;
+}
+.nav_foooter ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav_foooter ul li a:hover {
+  color: rgb(13, 209, 244);
+}
 
 .copy {
-  text-align: center; }
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .footer {
     font-size: 10px;
-    width: 100vw; } }
-
+    width: 100vw;
+  }
+}
 @media (max-width: 426px) {
   .nav_foooter ul {
-    align-items: center; } }
-
+    align-items: center;
+  }
+}
 /* productos */
 .seccion_productosp div {
   display: inline-block;
@@ -221,29 +273,38 @@ font-family: 'Montserrat', sans-serif; */
   background-color: black;
   color: white;
   text-align: center;
-  margin: 20px; }
-  .seccion_productosp div p {
-    font-size: 12px; }
-  .seccion_productosp div img {
-    width: 150px; }
+  margin: 20px;
+}
+.seccion_productosp div p {
+  font-size: 12px;
+}
+.seccion_productosp div img {
+  width: 150px;
+}
 
 .aside {
   width: 200px;
   height: 300px;
   display: inline-block;
-  text-align: center; }
-  .aside h3 {
-    text-decoration: none; }
-  .aside ul {
-    text-align: center;
-    list-style-type: none; }
-    .aside ul li {
-      padding: 10px; }
-      .aside ul li a {
-        text-decoration: none;
-        color: black; }
-        .aside ul li a:hover {
-          background-color: #0084ffb8; }
+  text-align: center;
+}
+.aside h3 {
+  text-decoration: none;
+}
+.aside ul {
+  text-align: center;
+  list-style-type: none;
+}
+.aside ul li {
+  padding: 10px;
+}
+.aside ul li a {
+  text-decoration: none;
+  color: black;
+}
+.aside ul li a:hover {
+  background-color: rgba(0, 132, 255, 0.7215686275);
+}
 
 .seccion_productosg div {
   display: inline-block;
@@ -252,30 +313,39 @@ font-family: 'Montserrat', sans-serif; */
   background-color: white;
   color: black;
   text-align: center;
-  margin: 20px; }
-  .seccion_productosg div p {
-    font-size: 12px; }
-  .seccion_productosg div img {
-    width: 150px;
-    margin-top: 20px; }
+  margin: 20px;
+}
+.seccion_productosg div p {
+  font-size: 12px;
+}
+.seccion_productosg div img {
+  width: 150px;
+  margin-top: 20px;
+}
 
 .aside_cat {
   width: 200px;
   height: 300px;
   display: inline-block;
-  text-align: center; }
-  .aside_cat h3 {
-    text-decoration: none; }
-  .aside_cat ul {
-    text-align: center;
-    list-style-type: none; }
-    .aside_cat ul li {
-      padding: 10px; }
-      .aside_cat ul li a {
-        text-decoration: none;
-        color: black; }
-        .aside_cat ul li a:hover {
-          background-color: #0084ffb8; }
+  text-align: center;
+}
+.aside_cat h3 {
+  text-decoration: none;
+}
+.aside_cat ul {
+  text-align: center;
+  list-style-type: none;
+}
+.aside_cat ul li {
+  padding: 10px;
+}
+.aside_cat ul li a {
+  text-decoration: none;
+  color: black;
+}
+.aside_cat ul li a:hover {
+  background-color: rgba(0, 132, 255, 0.7215686275);
+}
 
 .imagen_producto {
   background-image: url(https://www.estudio34.com/wp-content/uploads/2020/05/HAPPETS-1.jpg);
@@ -283,68 +353,82 @@ font-family: 'Montserrat', sans-serif; */
   background-position: center;
   height: 500px;
   font-size: 40px;
-  text-align: center; }
-  .imagen_producto h4 {
-    width: 300px;
-    margin-left: 50px;
-    background-color: #fec341; }
+  text-align: center;
+}
+.imagen_producto h4 {
+  width: 300px;
+  margin-left: 50px;
+  background-color: #fec341;
+}
 
 @media (max-width: 768px) {
   .seccion_productosp {
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    .seccion_productosp div {
-      display: flex;
-      flex-direction: column;
-      width: 170px;
-      height: 320px; }
+    align-items: center;
+  }
+  .seccion_productosp div {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 320px;
+  }
   .aside {
     display: flex;
     flex-direction: row;
     width: 300px;
     height: 200px;
     display: inline-block;
-    text-align: center; }
-    .aside ul {
-      list-style-type: none; }
+    text-align: center;
+  }
+  .aside ul {
+    list-style-type: none;
+  }
   .seccion_productosg {
     display: flex;
     flex-direction: column;
-    align-items: center; }
-    .seccion_productosg img {
-      margin-top: 10px; }
+    align-items: center;
+  }
+  .seccion_productosg img {
+    margin-top: 10px;
+  }
   .aside_cat {
     width: 200px;
     height: 320px;
     display: inline-block;
-    text-align: center; }
-    .aside_cat ul {
-      list-style-type: none; }
+    text-align: center;
+  }
+  .aside_cat ul {
+    list-style-type: none;
+  }
   .imagen_producto h4 {
     width: 300px;
     height: 100px;
     padding-top: 5px;
-    font-size: 20px; } }
-
+    font-size: 20px;
+  }
+}
 @media (max-width: 426px) {
   .imagen_producto h4 {
     width: 300px;
     height: 100px;
     padding-top: 5px;
-    font-size: 20px; } }
-
+    font-size: 20px;
+  }
+}
 .imagen_accesorios {
   background-image: url(https://media.istockphoto.com/photos/pet-care-concept-various-pet-accessories-and-tools-on-pink-background-picture-id1401042138?k=20&m=1401042138&s=612x612&w=0&h=7t-LlfmRssw8ewAnkf-OTUoKHVAiMGPxoWIWPtVYoWg=);
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
-  text-align: center; }
-  .imagen_accesorios p {
-    padding-top: 350px;
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 30px;
-    color: white; }
+  text-align: center;
+}
+.imagen_accesorios p {
+  padding-top: 350px;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 30px;
+  color: white;
+}
 
 .seccion_accesorios div {
   display: inline-block;
@@ -353,136 +437,170 @@ font-family: 'Montserrat', sans-serif; */
   background-color: black;
   color: white;
   text-align: center;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .seccion_accesorios p {
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 .seccion_accesorios img {
   margin-top: 20px;
-  width: 100%; }
+  width: 100%;
+}
 
 .aside_acc {
   width: 200px;
   height: 300px;
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+}
 
 .aside_acc h3 {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .aside_acc ul {
   text-align: center;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .aside_acc li {
-  padding: 10px; }
+  padding: 10px;
+}
 
 .aside_acc a {
   text-decoration: none;
-  color: black; }
+  color: black;
+}
 
 .aside_acc a:hover {
-  background-color: #f1627a; }
+  background-color: rgb(241, 98, 122);
+}
 
 .consejos_mascotas {
   width: 900px;
   margin: 0 auto;
-  border-radius: 10px; }
-  .consejos_mascotas b:hover {
-    color: black; }
+  border-radius: 10px;
+}
+.consejos_mascotas b:hover {
+  color: black;
+}
 
 @media (max-width: 768px) {
   .imagen_accesorios {
-    height: 300px; }
+    height: 300px;
+  }
   .imagen_accesorios p {
-    padding-top: 200px; }
+    padding-top: 200px;
+  }
   .seccion_accesorios {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
   .seccion_accesorios div {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
   .consejos_mascotas {
-    width: 500px; }
+    width: 500px;
+  }
   .contenedor_servicios {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; } }
-
+    align-items: center;
+  }
+}
 @media (max-width: 426px) {
   .imagen_accesorios p {
     padding-top: 200px;
-    font-size: 21px; }
+    font-size: 21px;
+  }
   .consejos_mascotas {
-    width: 300px; } }
-
+    width: 300px;
+  }
+}
 .contenedor_servicios {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .peluqueria_seccion {
   height: 820px;
   width: 710px;
-  background-color: #0dd1f4;
+  background-color: rgb(13, 209, 244);
   text-align: center;
   color: black;
   margin: 50px;
   padding: 25px;
   border: white 5px solid;
   border-radius: 10%;
-  font-style: italic; }
-  .peluqueria_seccion h3 {
-    border-radius: 5px; }
-  .peluqueria_seccion p {
-    border-radius: 5px; }
+  font-style: italic;
+}
+.peluqueria_seccion h3 {
+  border-radius: 5px;
+}
+.peluqueria_seccion p {
+  border-radius: 5px;
+}
 
 .peluqueria_seccion p {
   background-color: white;
   padding: 10px;
-  font-style: italic; }
-  .peluqueria_seccion p h3 {
-    border-radius: 5px; }
-  .peluqueria_seccion p p {
-    border-radius: 5px; }
+  font-style: italic;
+}
+.peluqueria_seccion p h3 {
+  border-radius: 5px;
+}
+.peluqueria_seccion p p {
+  border-radius: 5px;
+}
 
 .peluqueria_seccion h3 {
   background-color: white;
   margin: 10px;
-  font-style: italic; }
-  .peluqueria_seccion h3 h3 {
-    border-radius: 5px; }
-  .peluqueria_seccion h3 p {
-    border-radius: 5px; }
+  font-style: italic;
+}
+.peluqueria_seccion h3 h3 {
+  border-radius: 5px;
+}
+.peluqueria_seccion h3 p {
+  border-radius: 5px;
+}
 
 .peluqueria_seccion img {
   border-radius: 10%;
-  margin: 10px; }
+  margin: 10px;
+}
 
 .turnos_peluqueria {
   height: 450px;
   width: 350px;
-  background-color: #0dd1f4;
+  background-color: rgb(13, 209, 244);
   color: black;
   margin-top: 250px;
   border: white 5px solid;
   border-radius: 10%;
   text-align: center;
   font-weight: 700;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .turnos_peluqueria p {
-  padding: 5px; }
+  padding: 5px;
+}
 
 .turnos_peluqueria ul {
   list-style-type: none;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .turnos_peluqueria a {
-  color: black; }
+  color: black;
+}
 
 .veterinaria_seccion {
   height: 830px;
@@ -494,217 +612,277 @@ font-family: 'Montserrat', sans-serif; */
   padding: 25px;
   border: black 5px solid;
   border-radius: 10%;
-  font-style: italic; }
-  .veterinaria_seccion h3 {
-    border-radius: 5px; }
-  .veterinaria_seccion p {
-    border-radius: 5px; }
+  font-style: italic;
+}
+.veterinaria_seccion h3 {
+  border-radius: 5px;
+}
+.veterinaria_seccion p {
+  border-radius: 5px;
+}
 
 .veterinaria_seccion p {
-  background-color: #0dd1f4;
+  background-color: rgb(13, 209, 244);
   padding: 10px;
-  font-style: italic; }
-  .veterinaria_seccion p h3 {
-    border-radius: 5px; }
-  .veterinaria_seccion p p {
-    border-radius: 5px; }
+  font-style: italic;
+}
+.veterinaria_seccion p h3 {
+  border-radius: 5px;
+}
+.veterinaria_seccion p p {
+  border-radius: 5px;
+}
 
 .veterinaria_seccion h3 {
-  background-color: #0dd1f4;
+  background-color: rgb(13, 209, 244);
   margin: 10px;
-  font-style: italic; }
-  .veterinaria_seccion h3 h3 {
-    border-radius: 5px; }
-  .veterinaria_seccion h3 p {
-    border-radius: 5px; }
+  font-style: italic;
+}
+.veterinaria_seccion h3 h3 {
+  border-radius: 5px;
+}
+.veterinaria_seccion h3 p {
+  border-radius: 5px;
+}
 
 .veterinaria_seccion img {
-  background-color: #0dd1f4;
+  background-color: rgb(13, 209, 244);
   margin: 10px;
-  border-radius: 10%; }
+  border-radius: 10%;
+}
 
 .turnos_veterinaria {
   height: 600px;
   width: 350px;
-  background-color: #0dd1f4;
+  background-color: rgb(13, 209, 244);
   text-align: center;
   color: black;
   margin-top: 200px;
   border: black 5px solid;
   border-radius: 10%;
   font-weight: 700;
-  font-style: italic; }
+  font-style: italic;
+}
 
 .turnos_veterinaria p {
-  padding: 10px; }
+  padding: 10px;
+}
 
 .turnos_veterinaria ul {
   padding: 10px;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .turnos_veterinaria a {
-  color: black; }
+  color: black;
+}
 
 @media (max-width: 1024px) {
   .contenedor_servicios {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
   .peluqueria_seccion {
     margin: 20px;
-    padding: 10px; }
+    padding: 10px;
+  }
   .turnos_peluqueria {
     margin-top: 30px;
-    margin-right: 10px; }
+    margin-right: 10px;
+  }
   .veterinaria_seccion {
     margin: 20px;
-    padding: 10px; }
+    padding: 10px;
+  }
   .turnos_veterinaria {
     margin-top: 30px;
-    margin-right: 10px; } }
-
+    margin-right: 10px;
+  }
+}
 @media (max-width: 768px) {
   .contenedor_servicios {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
   .peluqueria_seccion {
     height: 550px;
     width: 510px;
     margin: 20px;
-    padding: 10px; }
+    padding: 10px;
+  }
   .peluqueria_seccion p {
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .peluqueria_seccion h3 {
-    font-size: 13px; }
+    font-size: 13px;
+  }
   .peluqueria_seccion img {
     margin: 5px;
-    width: 350px; }
+    width: 350px;
+  }
   .img_logo img {
-    width: 50px; }
+    width: 50px;
+  }
   .turnos_peluqueria {
     height: 500px;
     width: 350px;
     margin-top: 20px;
-    margin-right: 5px; }
+    margin-right: 5px;
+  }
   .turnos_peluqueria p {
-    padding: 5px; }
+    padding: 5px;
+  }
   .turnos_peluqueria li {
     padding: 5px;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .veterinaria_seccion {
     height: 550px;
     width: 510px;
     margin: 20px;
-    padding: 10px; }
+    padding: 10px;
+  }
   .veterinaria_seccion p {
     padding: 5px;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .veterinaria_seccion h3 {
     margin: 5px;
-    font-size: 13px; }
+    font-size: 13px;
+  }
   .veterinaria_seccion img {
     width: 350px;
-    margin: 5px; }
+    margin: 5px;
+  }
   .img_logo img {
-    width: 50px; }
+    width: 50px;
+  }
   .turnos_veterinaria {
     height: 600px;
     width: 350px;
     margin: 20px;
     margin-top: 20px;
-    margin-right: 10px; }
+    margin-right: 10px;
+  }
   .turnos_veterinaria p {
-    padding: 5px; }
+    padding: 5px;
+  }
   .turnos_veterinaria li {
     padding: 5px;
-    font-size: 12px; } }
-
+    font-size: 12px;
+  }
+}
 @media (max-width: 426px) {
   .contenedor_servicios {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+  }
   .peluqueria_seccion {
     height: 500px;
     width: 350px;
     margin: 0 auto;
-    padding: 5px; }
+    padding: 5px;
+  }
   .peluqueria_seccion p {
     padding: 5px;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .peluqueria_seccion h3 {
     margin: 0 auto;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .peluqueria_seccion img {
     width: 300px;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
   .img_logo img {
-    width: 40px; }
+    width: 40px;
+  }
   .turnos_peluqueria {
     height: 480px;
     width: 350px;
     margin-top: 20px;
     margin-right: 1px;
     border: white 5px solid;
-    border-radius: 10%; }
+    border-radius: 10%;
+  }
   .turnos_peluqueria p {
-    padding: 5px; }
+    padding: 5px;
+  }
   .turnos_peluqueria li {
-    padding: 5px; }
+    padding: 5px;
+  }
   .veterinaria_seccion {
     height: 500px;
     width: 350px;
     margin: 10px auto;
-    padding: 5px; }
+    padding: 5px;
+  }
   .veterinaria_seccion p {
     padding: 5px;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .veterinaria_seccion h3 {
     font-size: 12px;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
   .veterinaria_seccion img {
     margin: 0 auto;
-    width: 300px; }
+    width: 300px;
+  }
   .img_logo img {
-    width: 40px; }
+    width: 40px;
+  }
   .turnos_veterinaria {
     height: 580px;
     width: 350px;
     margin-top: 20px;
     margin-right: 10px;
-    border: black 5px solid; }
+    border: black 5px solid;
+  }
   .turnos_veterinaria p {
     padding: 5px;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .turnos_veterinaria li {
-    padding: 5px; } }
-
+    padding: 5px;
+  }
+}
 .imagen_contacto {
-  background-color: rgba(255, 166, 0, 0.3); }
+  background-color: rgba(255, 166, 0, 0.3);
+}
 
 .imagen_contacto img {
-  width: 100%; }
+  width: 100%;
+}
 
 .seccion_contacto {
   text-align: center;
-  color: white; }
+  color: white;
+}
 
 .seccion_contacto h3 {
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 .seccion_contacto p {
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 .mapa_iframe {
   width: 800px;
-  height: 450px; }
+  height: 450px;
+}
 
 .titulo_grid {
   margin: 5px;
-  padding: 5px; }
+  padding: 5px;
+}
 
 .grid_galeria {
   max-width: 950px;
@@ -714,52 +892,68 @@ font-family: 'Montserrat', sans-serif; */
   display: grid;
   grid-template-columns: repeat(6, 16, 66%);
   grid-template-rows: repeat(4, 20%);
-  grid-template-areas: "img1 img1 img2 img2 img3 img3" "img1 img1 img2 img2 img3 img3" "img4 img4 img5 img5 img6 img6" "img4 img4 img5 img5 img6 img6"; }
+  grid-template-areas: "img1 img1 img2 img2 img3 img3" "img1 img1 img2 img2 img3 img3" "img4 img4 img5 img5 img6 img6" "img4 img4 img5 img5 img6 img6";
+}
 
 .img1 {
-  grid-area: img1; }
+  grid-area: img1;
+}
 
 .img1 img {
-  width: 300px; }
+  width: 300px;
+}
 
 .img2 {
-  grid-area: img2; }
+  grid-area: img2;
+}
 
 .img2 img {
-  width: 300px; }
+  width: 300px;
+}
 
 .img3 {
-  grid-area: img3; }
+  grid-area: img3;
+}
 
 .img3 img {
-  width: 300px; }
+  width: 300px;
+}
 
 .img4 {
-  grid-area: img4; }
+  grid-area: img4;
+}
 
 .img4 img {
-  width: 300px; }
+  width: 300px;
+}
 
 .img5 {
-  grid-area: img5; }
+  grid-area: img5;
+}
 
 .img5 img {
-  width: 300px; }
+  width: 300px;
+}
 
 .img6 {
-  grid-area: img6; }
+  grid-area: img6;
+}
 
 .img6 img {
-  width: 300px; }
+  width: 300px;
+}
 
 @media (max-width: 768px) {
   .mapa_iframe {
     width: 500px;
-    height: 450px; }
+    height: 450px;
+  }
   .seccion_contacto h3 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .seccion_contacto p {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .grid_galeria {
     max-width: 600px;
     align-content: center;
@@ -768,28 +962,38 @@ font-family: 'Montserrat', sans-serif; */
     display: grid;
     grid-template-columns: repeat(6, 10%);
     grid-template-rows: repeat(3, 27%);
-    grid-template-areas: "img1 img1 img1 img2 img2 img2" "img3 img3 img3 img4 img4 img4" "img5 img5 img5 img6 img6 img6"; }
+    grid-template-areas: "img1 img1 img1 img2 img2 img2" "img3 img3 img3 img4 img4 img4" "img5 img5 img5 img6 img6 img6";
+  }
   .img1 img {
-    width: 200px; }
+    width: 200px;
+  }
   .img2 img {
-    width: 200px; }
+    width: 200px;
+  }
   .img3 img {
-    width: 200px; }
+    width: 200px;
+  }
   .img4 img {
-    width: 200px; }
+    width: 200px;
+  }
   .img5 img {
-    width: 200px; }
+    width: 200px;
+  }
   .img6 img {
-    width: 200px; } }
-
+    width: 200px;
+  }
+}
 @media (max-width: 426px) {
   .mapa_iframe {
     width: 100vw;
-    height: 300px; }
+    height: 300px;
+  }
   .seccion_contacto h3 {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .seccion_contacto p {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .grid_galeria {
     max-width: 400px;
     align-content: center;
@@ -798,16 +1002,24 @@ font-family: 'Montserrat', sans-serif; */
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(6, 15%);
-    grid-template-areas: "img1 img1" "img2 img2" "img3 img3" "img4 img4" "img5 img5" "img6 img6"; }
+    grid-template-areas: "img1 img1" "img2 img2" "img3 img3" "img4 img4" "img5 img5" "img6 img6";
+  }
   .img1 img {
-    width: 250px; }
+    width: 250px;
+  }
   .img2 img {
-    width: 250px; }
+    width: 250px;
+  }
   .img3 img {
-    width: 250px; }
+    width: 250px;
+  }
   .img4 img {
-    width: 250px; }
+    width: 250px;
+  }
   .img5 img {
-    width: 250px; }
+    width: 250px;
+  }
   .img6 img {
-    width: 250px; } }
+    width: 250px;
+  }
+}/*# sourceMappingURL=main.css.map */
