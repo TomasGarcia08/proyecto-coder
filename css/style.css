@@ -694,21 +694,17 @@ font-family: 'Montserrat', sans-serif; */
   .turnos_veterinaria li {
     padding: 5px; } }
 
-.imagen_contacto {
-  background-color: rgba(255, 166, 0, 0.3); }
-
-.imagen_contacto img {
-  width: 100%; }
-
 .seccion_contacto {
   text-align: center;
   color: white; }
 
 .seccion_contacto h3 {
-  font-size: 15px; }
+  font-size: 15px;
+  margin: 5px; }
 
 .seccion_contacto p {
-  font-size: 15px; }
+  font-size: 15px;
+  margin: 5px; }
 
 .mapa_iframe {
   width: 800px;
@@ -718,12 +714,20 @@ font-family: 'Montserrat', sans-serif; */
   margin: 5px;
   padding: 5px; }
 
+form {
+  background-color: rgba(128, 128, 128, 0.34);
+  width: 550px;
+  margin: 0 auto; }
+
+input {
+  margin: 5px; }
+
 .grid_galeria {
   max-width: 950px;
-  align-content: center;
+  align-items: center;
   margin: 0 auto;
-  justify-content: center;
   display: grid;
+  align-content: space-between;
   grid-template-columns: repeat(6, 16, 66%);
   grid-template-rows: repeat(4, 20%);
   grid-template-areas: "img1 img1 img2 img2 img3 img3" "img1 img1 img2 img2 img3 img3" "img4 img4 img5 img5 img6 img6" "img4 img4 img5 img5 img6 img6"; }
@@ -732,7 +736,7 @@ font-family: 'Montserrat', sans-serif; */
   grid-area: img1; }
 
 .img1 img {
-  width: 300px; }
+  width: 240px; }
 
 .img2 {
   grid-area: img2; }
@@ -744,25 +748,28 @@ font-family: 'Montserrat', sans-serif; */
   grid-area: img3; }
 
 .img3 img {
-  width: 300px; }
+  width: 270px; }
 
 .img4 {
   grid-area: img4; }
 
 .img4 img {
-  width: 300px; }
+  width: 280px; }
 
 .img5 {
   grid-area: img5; }
 
 .img5 img {
-  width: 300px; }
+  width: 280px; }
 
 .img6 {
   grid-area: img6; }
 
 .img6 img {
-  width: 300px; }
+  width: 280px; }
+
+textarea {
+  resize: none; }
 
 @media (max-width: 768px) {
   .mapa_iframe {
@@ -799,14 +806,16 @@ font-family: 'Montserrat', sans-serif; */
     width: 100vw;
     height: 300px; }
   .seccion_contacto h3 {
-    font-size: 20px; }
+    font-size: 13px;
+    margin: 5px; }
   .seccion_contacto p {
-    font-size: 20px; }
+    font-size: 13px;
+    margin: 5px; }
+  .titulo_grid {
+    font-size: 8px; }
   .grid_galeria {
-    max-width: 400px;
-    align-content: center;
+    max-width: 350px;
     margin: 0 auto;
-    justify-content: center;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(6, 15%);
@@ -822,4 +831,9 @@ font-family: 'Montserrat', sans-serif; */
   .img5 img {
     width: 250px; }
   .img6 img {
-    width: 250px; } }
+    width: 250px; }
+  form {
+    width: 350px;
+    font-size: 12px; }
+  input {
+    margin: 5px; } }
