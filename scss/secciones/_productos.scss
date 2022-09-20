@@ -1,69 +1,93 @@
 /* productos */
+.seccion_productosp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
 .seccion_productosp div {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 200px;
+    width: 180px;
     height: 300px;
     background-color: black;
     color: white;
     text-align: center;
     margin: 20px;
     p{
-        font-size: 12px;
+        font-size: 10px;
     }
     img{
-        width: 150px;
+        width: 120px;
     }
 }
 
 
 .aside {
     width: 200px;
-    height: 300px;
-    display: inline-block;
+    height: 400px;
     text-align: center;
+    color: $blanco;
     h3{
         text-decoration: none;
+        color: $blanco;
     }
         ul{
             text-align: center;
             list-style-type: none;
             li{
-                padding: 10px;
+                padding: 5px;
                 a{
                     text-decoration: none;
-                    color: black;
+                    color: $blanco;
                     &:hover{
                         background-color: #0084ffb8;
+                        padding: 2px;
                     }
                 }
             }
         }
     }
 
+.banner_p{
+    background-image: url(https://thumbs.dreamstime.com/b/textura-secada-de-la-comida-de-perro-65394224.jpg);
+    background-size: contain;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.seccion_productosg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}   
+
 .seccion_productosg div {
-    display: inline-block;
-    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
     height: 300px;
     background-color: white;
     color: black;
     text-align: center;
     margin: 20px;
     p{
-        font-size: 12px;
+        font-size: 10px;
     }
     img{
-        width: 150px;
-        margin-top: 20px;
+        width: 120px;
     }
 }
 
 
 .aside_cat {
     width: 200px;
-    height: 300px;
-    display: inline-block;
+    height: 400px;
     text-align: center;
+    color: $blanco;
     h3{
         text-decoration: none;
     }
@@ -71,12 +95,13 @@
         text-align: center;
         list-style-type: none;
         li{
-            padding: 10px;
+            padding: 5px;
             a{
                 text-decoration: none;
-                color: black;
+                color: $blanco;
                 &:hover{
                     background-color: #0084ffb8;
+                    padding: 2px;
                 }
             }
         }
@@ -90,6 +115,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 500px;
+    margin-bottom: 20px;
     font-size: 40px;
     text-align: center;
     h4{
@@ -108,16 +134,14 @@
             display: flex;
             flex-direction: column;
             width: 170px;
-            height: 320px;
+            height: 280px;
         }
     }
     
     .aside {
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
         width: 300px;
         height: 200px;
-        display: inline-block;
         text-align: center;
         ul{
             list-style-type: none;
@@ -128,15 +152,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        img{
-            margin-top: 10px;
-        }
     }
     
     
     .aside_cat {
-        width: 200px;
-        height: 320px;
+        width: 300px;
+        height: 200px;
         display: inline-block;
         text-align: center;
         ul{
@@ -153,10 +174,21 @@
 }
 
 @media (max-width: 426px) {
-    .imagen_producto h4 {
-        width: 200px;
-        height: 100px;
-        padding-top: 1px;
-        font-size: 15px;
+    .imagen_producto {
+        h4{
+            width: 200px;
+            height: 100px;
+            font-size: 15px;
+        }
+    }
+
+    .seccion_productosp {
+        img{
+            width: 80px;
+        }
+        div{
+            height: 280px;
+        }
     }
 }
+

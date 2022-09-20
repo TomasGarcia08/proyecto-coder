@@ -91,6 +91,7 @@ font-family: 'Montserrat', sans-serif; */
   background-image: url(https://images.pexels.com/photos/406014/pexels-photo-406014.jpeg?auto=compress&cs=tinysrgb&w=600);
   height: 300px;
   padding: 5px;
+  margin: 10px;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center; }
@@ -158,10 +159,6 @@ font-family: 'Montserrat', sans-serif; */
     .segunda_seccion p {
       display: inline-block;
       font-size: 15px; }
-  .titulo_destacado {
-    margin: 5px; }
-    .titulo_destacado h3 {
-      font-size: 8px; }
   .tercera_seccion {
     display: flex;
     flex-direction: column;
@@ -171,10 +168,10 @@ font-family: 'Montserrat', sans-serif; */
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 350px;
+      height: 300px;
       text-align: center; }
       .tercera_seccion div img {
-        width: 200px; } }
+        width: 120px; } }
 
 .footer {
   display: flex;
@@ -208,75 +205,97 @@ font-family: 'Montserrat', sans-serif; */
     align-items: center; } }
 
 /* productos */
+.seccion_productosp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 .seccion_productosp div {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 200px;
+  width: 180px;
   height: 300px;
   background-color: black;
   color: white;
   text-align: center;
   margin: 20px; }
   .seccion_productosp div p {
-    font-size: 12px; }
+    font-size: 10px; }
   .seccion_productosp div img {
-    width: 150px; }
+    width: 120px; }
 
 .aside {
   width: 200px;
-  height: 300px;
-  display: inline-block;
-  text-align: center; }
+  height: 400px;
+  text-align: center;
+  color: white; }
   .aside h3 {
-    text-decoration: none; }
+    text-decoration: none;
+    color: white; }
   .aside ul {
     text-align: center;
     list-style-type: none; }
     .aside ul li {
-      padding: 10px; }
+      padding: 5px; }
       .aside ul li a {
         text-decoration: none;
-        color: black; }
+        color: white; }
         .aside ul li a:hover {
-          background-color: #0084ffb8; }
+          background-color: #0084ffb8;
+          padding: 2px; }
+
+.banner_p {
+  background-image: url(https://thumbs.dreamstime.com/b/textura-secada-de-la-comida-de-perro-65394224.jpg);
+  background-size: contain;
+  height: 200px;
+  margin: 0 auto; }
+
+.seccion_productosg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 .seccion_productosg div {
-  display: inline-block;
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
   height: 300px;
   background-color: white;
   color: black;
   text-align: center;
   margin: 20px; }
   .seccion_productosg div p {
-    font-size: 12px; }
+    font-size: 10px; }
   .seccion_productosg div img {
-    width: 150px;
-    margin-top: 20px; }
+    width: 120px; }
 
 .aside_cat {
   width: 200px;
-  height: 300px;
-  display: inline-block;
-  text-align: center; }
+  height: 400px;
+  text-align: center;
+  color: white; }
   .aside_cat h3 {
     text-decoration: none; }
   .aside_cat ul {
     text-align: center;
     list-style-type: none; }
     .aside_cat ul li {
-      padding: 10px; }
+      padding: 5px; }
       .aside_cat ul li a {
         text-decoration: none;
-        color: black; }
+        color: white; }
         .aside_cat ul li a:hover {
-          background-color: #0084ffb8; }
+          background-color: #0084ffb8;
+          padding: 2px; }
 
 .imagen_producto {
   background-image: url(https://www.estudio34.com/wp-content/uploads/2020/05/HAPPETS-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 500px;
+  margin-bottom: 20px;
   font-size: 40px;
   text-align: center; }
   .imagen_producto h4 {
@@ -293,13 +312,11 @@ font-family: 'Montserrat', sans-serif; */
       display: flex;
       flex-direction: column;
       width: 170px;
-      height: 320px; }
+      height: 280px; }
   .aside {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     width: 300px;
     height: 200px;
-    display: inline-block;
     text-align: center; }
     .aside ul {
       list-style-type: none; }
@@ -307,11 +324,9 @@ font-family: 'Montserrat', sans-serif; */
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .seccion_productosg img {
-      margin-top: 10px; }
   .aside_cat {
-    width: 200px;
-    height: 320px;
+    width: 300px;
+    height: 200px;
     display: inline-block;
     text-align: center; }
     .aside_cat ul {
@@ -326,20 +341,28 @@ font-family: 'Montserrat', sans-serif; */
   .imagen_producto h4 {
     width: 200px;
     height: 100px;
-    padding-top: 1px;
-    font-size: 15px; } }
+    font-size: 15px; }
+  .seccion_productosp img {
+    width: 80px; }
+  .seccion_productosp div {
+    height: 280px; } }
 
 .imagen_accesorios {
   background-image: url(https://media.istockphoto.com/photos/pet-care-concept-various-pet-accessories-and-tools-on-pink-background-picture-id1401042138?k=20&m=1401042138&s=612x612&w=0&h=7t-LlfmRssw8ewAnkf-OTUoKHVAiMGPxoWIWPtVYoWg=);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   height: 400px;
   text-align: center; }
   .imagen_accesorios p {
-    padding-top: 350px;
+    padding-top: 300px;
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 30px;
     color: white; }
+
+.seccion_accesorios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 .seccion_accesorios div {
   display: inline-block;
@@ -360,7 +383,8 @@ font-family: 'Montserrat', sans-serif; */
 .aside_acc {
   width: 200px;
   height: 300px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   text-align: center; }
 
 .aside_acc h3 {
@@ -375,7 +399,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .aside_acc a {
   text-decoration: none;
-  color: black; }
+  color: white; }
 
 .aside_acc a:hover {
   background-color: #f1627a; }
@@ -428,7 +452,6 @@ font-family: 'Montserrat', sans-serif; */
   margin: 50px;
   padding: 25px;
   border: white 5px solid;
-  border-radius: 10%;
   font-style: italic; }
   .peluqueria_seccion h3 {
     border-radius: 5px; }
@@ -454,7 +477,6 @@ font-family: 'Montserrat', sans-serif; */
     border-radius: 5px; }
 
 .peluqueria_seccion img {
-  border-radius: 10%;
   margin: 10px; }
 
 .turnos_peluqueria {
@@ -464,7 +486,6 @@ font-family: 'Montserrat', sans-serif; */
   color: black;
   margin-top: 250px;
   border: white 5px solid;
-  border-radius: 10%;
   text-align: center;
   font-weight: 700;
   font-style: italic; }
@@ -488,7 +509,6 @@ font-family: 'Montserrat', sans-serif; */
   margin: 50px;
   padding: 25px;
   border: black 5px solid;
-  border-radius: 10%;
   font-style: italic; }
   .veterinaria_seccion h3 {
     border-radius: 5px; }
@@ -515,8 +535,7 @@ font-family: 'Montserrat', sans-serif; */
 
 .veterinaria_seccion img {
   background-color: #0dd1f4;
-  margin: 10px;
-  border-radius: 10%; }
+  margin: 10px; }
 
 .turnos_veterinaria {
   height: 600px;
@@ -526,7 +545,6 @@ font-family: 'Montserrat', sans-serif; */
   color: black;
   margin-top: 200px;
   border: black 5px solid;
-  border-radius: 10%;
   font-weight: 700;
   font-style: italic; }
 
@@ -643,8 +661,7 @@ font-family: 'Montserrat', sans-serif; */
     width: 350px;
     margin-top: 20px;
     margin-right: 1px;
-    border: white 5px solid;
-    border-radius: 10%; }
+    border: white 5px solid; }
   .turnos_peluqueria p {
     padding: 5px; }
   .turnos_peluqueria li {

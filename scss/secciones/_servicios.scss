@@ -12,7 +12,6 @@
     margin: 50px;
     padding: 25px;
     border: $blanco 5px solid;
-    border-radius: 10%;
     @include peluqueria_seccion
 }
 
@@ -29,7 +28,6 @@
 }
 
 .peluqueria_seccion img {
-    border-radius: 10%;
     margin: 10px;
 }
 
@@ -40,7 +38,6 @@
     color: $negro;
     margin-top: 250px;
     border: white 5px solid;
-    border-radius: 10%;
     text-align: center;
     @include turnos_peluqueria
 }
@@ -65,7 +62,6 @@
     margin: 50px;
     padding: 25px;
     border: $negro 5px solid;
-    border-radius: 10%;
     @include veterinaria_seccion
 }
 
@@ -84,7 +80,6 @@
 .veterinaria_seccion img {
     background-color: $hovernav;
     margin: 10px;
-    border-radius: 10%;
 }
 
 .turnos_veterinaria {
@@ -95,7 +90,6 @@
     color: $negro;
     margin-top: 200px;
     border: black 5px solid;
-    border-radius: 10%;
     @include turnos_veterinaria
 }
 
@@ -275,7 +269,6 @@
         margin-top: 20px;
         margin-right: 1px;
         border: white 5px solid;
-        border-radius: 10%;
     }
 
     .turnos_peluqueria p {
